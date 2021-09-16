@@ -14,17 +14,23 @@
         android:layout_height="50dp"
         android:ellipsize="start"
         android:gravity="end"
-        android:textColor="@color/white"
-        android:textSize="35sp" />
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:background="@drawable/lines"
+        android:layout_margin="5dp"
+        android:hint="Operation"/>
 
     <TextView
         android:id="@+id/math_result"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:ellipsize="end"
-        android:gravity="end"
-        android:textColor="@color/white"
-        android:textSize="35sp" />
+        android:gravity="start"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:background="@drawable/lines"
+        android:layout_margin="5dp"
+        android:hint="Result"/>
 
     <LinearLayout
         android:layout_width="match_parent"
