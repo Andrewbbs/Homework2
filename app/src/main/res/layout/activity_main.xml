@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/math_operation"
+        android:id="@+id/math_operation_text_view"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_margin="5dp"
@@ -21,7 +21,7 @@
         android:textSize="25sp" />
 
     <TextView
-        android:id="@+id/math_result"
+        android:id="@+id/math_result_text_view"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_margin="5dp"
